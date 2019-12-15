@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+
+  .ptext{
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 30px;
+      position: absolute;
+      top: 50%;
+      left: 42.2%;
+  }
+
+
+
+  
+    section {
+        width: 100%;
+        height: 270px;
+
+        .section-text{
+            padding: 3% 10%;
+
+
+            span{
+                font-size: 25px;
+                font-weight: 700;
+                text-transform: uppercase;
+
+            }
+
+            p{
+                margin: 2rem 0;
+                font-weight: 200;
+                line-height: 1.2;
+                font-family: 'Lato',sans-serif;
+            }
+    
+        }
+        
+    }
+
+    .section-dark {
+        background: #032535;
+        color: #ffff;
+    }
+
+    .centre {
+        text-align: center;
+    }
+
+    .section-light {
+        background: #fff;
+        color: #032535;
+    }
+
+    .pimg1 {
+        opacity: 0.8;
+        background: url('../img/1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .pimg2 {
+        opacity: 0.9;
+        background: url('../img/3.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        top: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .pimg3 {
+        opacity: 0.9;
+        background: url('../img/2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        top: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .pimg4 {
+        opacity: 0.9;
+        background: url('../img/4.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        top: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+   
+}
